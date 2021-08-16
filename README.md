@@ -1,5 +1,5 @@
 # magic8Ball #
-###_Magic 8-Ball in Python_###
+_Magic 8-Ball in Python_
 
 Functions just like the classic Magic 8-Ball. After you enter your name and question, the software replys with your input then selects a random number to then select a repsonse.
 
