@@ -5,7 +5,7 @@ Functions just like the classic Magic 8-Ball. After you enter your name and ques
 
 [LIVE DEMO](https://replit.com/@itsduhhbzz/magic8Ball#main.py)
 
-Number  | Responses
+Center aligned Number  | Responses
 ------------- | -------------
  1 | Yes - definitely
  2 | It is decidedly so
