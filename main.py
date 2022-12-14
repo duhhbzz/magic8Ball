@@ -38,6 +38,12 @@ elif random_number == 12:
 else:
   answer = "Error"
 
-# output
-print(name + " asks: " + question)
-print("Magic 8 Ball's answer: " + answer)
+#loop is for error handling - if user does not input a name, or question  
+if len(question) != "":  
+  if len(name) == "":
+    print("Question: " + question)
+  else:
+    print(name + " asks: " + question)
+  print("Magic 8 Ball says: " + answer)
+else:
+  print("Magic 8 Ball does not understand what you are asking, please try again")
