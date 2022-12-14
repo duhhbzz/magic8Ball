@@ -7,7 +7,7 @@ question = input("Enter Question:")
 answer = ""
 
 # random number range 1 - 9 
-random_number = random.randint(1,9)
+random_number = random.randint(1,12)
 
 # if else statement to hold different outputs based from
 # the random number selected
@@ -29,6 +29,12 @@ elif random_number == 8:
   answer = "Outlook not so good"
 elif random_number == 9:
   answer = "Very doubtful"
+ elif random_number == 10:
+  answer = "Cannot predict now"
+elif random_number == 11:
+  answer = "My reply is no"
+elif random_number == 12:
+  answer = "Outlook very good"
 else:
   answer = "Error"
 
