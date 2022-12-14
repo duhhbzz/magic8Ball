@@ -39,8 +39,8 @@ else:
   answer = "Error"
 
 #loop is for error handling - if user does not input a name, or question  
-if len(question) != "":  
-  if len(name) == "":
+if len(question) != 0:  
+  if len(name) == 0:
     print("Question: " + question)
   else:
     print(name + " asks: " + question)
